@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Calculator</title>
+</head>
+<body>
+  <h1>Simple Calculator</h1>
+  <p>Perform all Operations using JavaScript</p>
+
+  <p id="add"></p>
+  <p id="sub"></p>
+  <p id="mul"></p>
+  <p id="div"></p>
+
+  <script>
+    // Define two numbers
+    var num1 = 10;
+    var num2 = 2;
+
+    // Perform calculations
+    var add = num1 + num2;
+    var sub = num1 - num2;
+    var mul = num1 * num2;
+    var div = num1 / num2;
+
+    // Display results in the HTML page
+    document.getElementById("add").innerHTML = "The added value is:" + add;
+    document.getElementById("sub").innerHTML = "The Subtracted value is: " + sub;
+    document.getElementById("mul").innerHTML = "The Multiplicated value is: " + mul;
+    document.getElementById("div").innerHTML = "The Divided value is: " + div;
+  </script>
+</body>
+</html>
